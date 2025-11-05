@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "brain-art"
+version = "1.0.0"
+description = "Brain Art - Interactive EEG Visualization with Muse S"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "scipy",
+    "pygame",
+    "matplotlib",
+    "mne",
+    "mne-lsl",
+    "PyQt5",
+    "python-osc",
+    "OpenMuse @ git+https://github.com/Eve0028/OpenMuse.git",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pylint",
+    "mypy",
+]
+
+[tool.setuptools]
+# Include config.py as a top-level module
+py-modules = ["config"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*", "utils*"]
+
+[tool.setuptools.package-data]
+"*" = ["*.py", "*.md"]
+

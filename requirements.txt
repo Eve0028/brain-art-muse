@@ -1,0 +1,23 @@
+# Brain Art Dependencies
+# Python 3.11
+
+# Muse S Athena Connection & EEG Streaming
+# OpenMuse - support for Muse S Athena
+git+https://github.com/DominiqueMakowski/OpenMuse.git
+mne-lsl  # Lab Streaming Layer (used by OpenMuse)
+PyQt5  # GUI for EEG OpenMuse Monitor
+
+# Signal Processing
+numpy
+scipy
+scipy-stubs
+
+# Visualization
+pygame
+matplotlib
+
+# EEG Analysis & Visualization
+mne  # MNE-Python - EEG analysis and visualization
+
+# Utilities
+python-osc  # Optional: for communication with tablet

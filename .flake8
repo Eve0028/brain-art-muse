@@ -1,0 +1,14 @@
+[flake8]
+max-line-length = 135
+
+ignore =
+    E116,  # unexpected indentation before inline comment
+    E114,  # indentation is not a multiple of 4 (often triggered by comment blocks)
+    W293   # blank line contains whitespace (allowed for visual layout consistency)
+
+# Directories excluded from static analysis
+exclude =
+    .git,
+    __pycache__,
+    build,
+    dist

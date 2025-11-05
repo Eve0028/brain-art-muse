@@ -1,0 +1,10 @@
+[MESSAGES CONTROL]
+disable =
+    C0103,  # invalid-name
+    C0303   # trailing-whitespace
+
+[FORMAT]
+max-line-length = 135
+
+[TYPECHECK]
+ignored-modules = pygame
