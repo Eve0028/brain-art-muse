@@ -35,7 +35,7 @@ try:
         import OpenMuse
         print("   ✅ OpenMuse installed")
     except ImportError:
-        print("   ⚠️  OpenMuse not found (install: pip install -r requirements.txt)")
+        print("   ⚠️  OpenMuse not found (install: pip install .)")
 
     # Test LSL
     try:
@@ -50,7 +50,7 @@ try:
 
 except ImportError as e:
     print(f"   ❌ Import error: {e}")
-    print("   Run: pip install -r requirements.txt")
+    print("   Run: pip install .")
     sys.exit(1)
 
 print()
@@ -153,7 +153,7 @@ if test_openmuse.lower() == 'y':
             print("   ⚠️  OpenMuse did not find devices")
     except FileNotFoundError:
         print("   ❌ OpenMuse not installed")
-        print("      pip install git+https://github.com/DominiqueMakowski/OpenMuse.git")
+        print("      pip install git+https://github.com/Eve0028/OpenMuse.git")
     except Exception as e:
         print(f"   ⚠️  Error: {e}")
 else:

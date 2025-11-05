@@ -83,12 +83,6 @@ pip install -r requirements.txt
 python -c "import pygame, numpy, scipy, OpenMuse; print('✅ All OK!')"
 ```
 
-If error:
-```bash
-pip install --upgrade pip
-pip install -r requirements.txt --force-reinstall
-```
-
 ---
 
 ## ✨ OpenMuse - Why and How?

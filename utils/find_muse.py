@@ -165,7 +165,7 @@ def print_summary() -> None:
     print("✅ RECOMMENDED METHOD: LSL (Lab Streaming Layer)")
     print()
     print("   Step by step:")
-    print("   1. Install: pip install -r requirements.txt")
+    print("   1. Install: pip install .")
     print("   2. Power on Muse S and ensure it's in range")
     print("   3. Open a separate terminal and run:")
     print("      > muselsl list")

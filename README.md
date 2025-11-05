@@ -129,7 +129,7 @@ OpenMuse stream --address 00:55:DA:B9:FB:2C --preset p20
 
 **Effect:** Battery life increased by **100-150%** (from ~2-3h to ~5-6h)! 🎉
 
-📚 **Details:** [OpenMuse Presets Table](https://github.com/DominiqueMakowski/OpenMuse#presets) | [docs/BATTERY_SAVING.md](docs/BATTERY_SAVING.md)
+📚 **Details:** [OpenMuse Presets Table](https://github.com/DominiqueMakowski/OpenMuse#presets) | [docs/eng/BATTERY_SAVING.md](docs/eng/BATTERY_SAVING.md)
 
 ---
 
@@ -138,7 +138,7 @@ OpenMuse stream --address 00:55:DA:B9:FB:2C --preset p20
 Besides the Brain Art window, you can open a **second window with EEG signal preview**:
 
 **Monitor shows:**
-- 📈 Raw EEG traces (4 channels - TP9, AF7, AF8, TP10) - if turn on in config, but I recommend to use `OpenMuse view` for that
+- 📈 Raw EEG traces (4 channels - TP9, AF7, AF8, TP10) - if enabled in config (but I recommend using `OpenMuse view` for that)
 - 🧠 Alpha/Beta topomaps (activity of all electrodes)
 - 📊 Real-time visualization
 
@@ -169,7 +169,7 @@ Auto-start: Set `SHOW_EEG_MONITOR = True` in `config.py`
 
 **Software:**
 - Python 3.12 (tested only on this version)
-- OpenMuse (will install from `requirements.txt`)
+- OpenMuse (will install from `pyproject.toml`)
 
 ---
 

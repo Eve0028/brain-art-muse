@@ -4,6 +4,10 @@ Oto folder dokumentacji projektu **Brain Art**!
 
 ## 📖 Dostępna Dokumentacja
 
+> **Note:** Documentation is available in two languages:
+> - **Polish** (PL) - files in `docs/` directory
+> - **English** (EN) - files in `docs/eng/` directory
+
 ### Dla Użytkowników
 
 1. **[INSTALLATION.md](INSTALLATION.md)** 🔧
@@ -71,22 +75,29 @@ Jeśli chcesz modyfikować kod:
 
 ```
 docs/
-├── README.md              # Ten plik
-├── INSTALLATION.md          # Setup i instalacja
-├── INSTRUCTION.md          # Instrukcja użytkownika
-├── FESTIVAL.md            # Poradnik festiwalowy
-├── BATTERY_SAVING.md      # Oszczędzanie baterii 🆕
-├── DEVELOPMENT.md              # Dokumentacja techniczna
-├── EEG_MONITOR.md         # Monitor EEG
-├── QUALITY_METRICS.md     # Metryki jakości
-└── FILTERING.md         # Filtrowanie sygnału
+├── README.md              # Ten plik (PL)
+├── INSTALLATION.md        # Setup i instalacja (PL)
+├── INSTRUCTION.md         # Instrukcja użytkownika (PL)
+├── FESTIVAL.md            # Poradnik festiwalowy (PL)
+├── BATTERY_SAVING.md      # Oszczędzanie baterii (PL)
+├── DEVELOPMENT.md         # Dokumentacja techniczna (PL)
+├── EEG_MONITOR.md         # Monitor EEG (PL)
+├── QUALITY_METRICS.md     # Metryki jakości (PL)
+├── FILTERING.md           # Filtrowanie sygnału (PL)
+│
+└── eng/                   # English documentation
+    ├── INSTALLATION.md    # Installation guide (EN)
+    ├── USER_GUIDE.md      # User manual (EN)
+    ├── BATTERY_SAVING.md  # Battery optimization (EN)
+    └── DEVELOPMENT.md     # Developer docs (EN)
 ```
 
 ## 🔗 Zobacz Też
 
 - [README główny](../README.md) - Przegląd projektu
+- [README_PL.md](../README_PL.md) - Dokumentacja w języku polskim
 - [config.py](../config.py) - Wszystkie ustawienia
-- [requirements.txt](../requirements.txt) - Zależności
+- [docs/eng/](eng/) - Dokumentacja w języku angielskim
 
 ---
 
