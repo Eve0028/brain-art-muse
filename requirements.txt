@@ -3,7 +3,7 @@
 
 # Muse S Athena Connection & EEG Streaming
 # OpenMuse - support for Muse S Athena
-git+https://github.com/DominiqueMakowski/OpenMuse.git
+git+https://github.com/Eve0028/OpenMuse.git
 mne-lsl  # Lab Streaming Layer (used by OpenMuse)
 PyQt5  # GUI for EEG OpenMuse Monitor
 
